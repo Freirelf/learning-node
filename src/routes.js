@@ -35,14 +35,14 @@ export const routes = [
     method: 'DELETE',
     path: buildRoutePath('/users/:id'),
     handler: (req, res) => {
-      const { id } = req.params;
+     return res.end()
     }
   }, 
   {
     method: 'PUT',
     path: buildRoutePath('/users/:id'),
     handler: (req, res) => {
-      const { id } = req.params;
+     return res.end()
     }
   }
 ];
